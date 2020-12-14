@@ -1,0 +1,81 @@
+
+
+body {
+    background-size: cover;
+    /* Ubicación de la imagen */
+    
+    background-image:url(Imagenes/fondo.jpg);
+    
+    /* Para dejar la imagen de fondo centrada, vertical y
+    
+    horizontalmente */
+    
+    background-position: center center;
+    
+    /* Para que la imagen de fondo no se repita */
+    
+    background-repeat: no-repeat;
+    
+    /* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+    
+    background-attachment: fixed;
+    
+    /* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+    
+    background-size: cover;
+    
+    /* Se muestra un color de fondo mientras se está cargando la imagen
+    
+    de fondo o si hay problemas para cargarla */
+    
+    background-color: white;
+    
+ 
+    }
+
+
+    #cabeza{
+        padding:1em;
+        margin:1em;
+        text-align: center;
+        color: white;
+        border: solid 20px rgba(255, 255, 255, 0.192);
+        background: rgba(63, 94, 251, 0.397);
+        background: linear-gradient(90deg, rgba(63, 94, 251, 0.315rgba(252, 70, 106, 0.383)173757) 74%);
+    }
+
+    #cuerpo{
+        background-size: cover;        
+        padding:1em;
+        margin:6em;
+        color: white ;
+        font-size: 60px;
+        text-align: center;
+        height: 900px;
+        border:solid 10px rgba(0, 0, 255, 0.089);
+        background: rgba(63, 94, 251, 0.274);
+        background: linear-gradient(90deg, rgba(63, 94, 251, 0.685)
+         18%, rgba(252, 70, 70, 0.514) 74%),url(Imagenes/bd.jpg);
+    }
+
+    #pie{
+        padding:1em;
+        margin:1em;
+        color: white;
+        text-align: center;
+        width: auto;
+        height: 100px;
+        border:solid 20px rgba(55, 0, 255, 0.589); 
+        -webkit-box-shadow: -1px 4px 55px 36px rgba(231, 218, 218, 0.712);
+        -moz-box-shadow: -1px 4px 55px 36px rgba(0, 0, 0, 0.75);
+        box-shadow: -1px 4px 55px 36px rgba(0, 0, 0, 0.781);
+
+    }
+
+#img{
+    -webkit-box-shadow: -1px 4px 55px 36px rgba(27, 45, 201, 0.75);
+    -moz-box-shadow: -1px 4px 55px 36px rgba(16, 56, 129, 0.555);
+    box-shadow: -1px 4px 55px 36px rgba(0,0,0,0.75);
+    background: rgba(63, 94, 251, 0.562);
+    background: linear-gradient(90deg, rgba(63, 94, 251, 0.514) 18%, rgba(252, 70, 70, 0.644) 74%),url(Imagenes/base.jpg);
+}
